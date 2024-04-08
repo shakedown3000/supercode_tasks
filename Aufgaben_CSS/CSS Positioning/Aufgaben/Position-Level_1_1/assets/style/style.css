@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+}
+
+html {
+    font-family: "Poppins";
+    color: white;
+    text-align: right;
+
+}
+
+body {
+    height: 100vh;
+    background-image: url(../images/everest.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+div {
+    position: absolute;
+    right: 200px;
+    top: 300px;
+    height: auto;
+    width: auto;
+}

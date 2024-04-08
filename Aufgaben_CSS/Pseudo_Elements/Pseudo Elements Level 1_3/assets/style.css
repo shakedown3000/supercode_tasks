@@ -1,0 +1,104 @@
+/* - Ziel der Übung ist es, eine To-do-Liste zu erstellen.
+- Der erste Buchstabe des HTML-Tags <h1> hat die Farbe #00796B und die Schriftgröße 3em. Beim Hovern hat der erste Buchstabe des HTML-Tags <h1> die Farbe #4FC3F7.
+- Verwende das Pseudo-Element ::before, um den Status jeder Aufgabe (Icon) hinzuzufügen.
+- Verwende das Pseudo-Element ::after, um die Beschreibung jeder Aufgabe (Icon) hinzuzufügen.
+- Die erledigten Aufgaben werden durchgestrichen.
+- Die laufenden Aufgaben haben eine Hintergrundfarbe.
+- Die zukünftigen Aufgaben werden unterstrichen.
+- Die Bilder befinden sich in den Code - Snippets */
+
+:root {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+div {
+    border: 0.25px solid grey;
+    width: 300px;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h1::first-letter {
+    font-size: 3em;
+    color: #00796B;
+}
+
+h1:hover:first-letter {
+    color: #4FC3F7;
+}
+
+ul {
+    font-weight: 300;
+    list-style-type: none;
+    padding-left: 1.2rem;
+}
+
+li::before {
+    content: "✔  ";
+}
+
+li:nth-of-type(1) {
+    text-decoration: line-through;
+}
+
+li:nth-of-type(1)::after {
+    content: " 🛒";
+    text-decoration: none;
+}
+
+li:nth-of-type(2) {
+    text-decoration: line-through;
+}
+
+li:nth-of-type(2)::after {
+    content: " 🗑️";
+    text-decoration: none;
+}
+
+li:nth-of-type(3) {
+    background-color: rgba(55, 243, 180, 0.238);
+}
+
+li:nth-of-type(3)::before {
+    content: "🚧 ";
+}
+
+li:nth-of-type(3)::after {
+    content: " 📧";
+}
+
+li:nth-of-type(4) {
+    background-color: rgba(55, 243, 180, 0.238);
+}
+
+li:nth-of-type(4)::before {
+    content: "🚧 ";
+}
+
+li:nth-of-type(4)::after {
+    content: " 💻";
+}
+
+li:nth-of-type(5)::before {
+    content: "❌ ";
+}
+
+li:nth-of-type(5)::after {
+    content: " 🎁";
+}
+li:nth-of-type(6)::before {
+    content: "❌ ";
+}
+
+li:nth-of-type(6)::after {
+    content: " 🏃‍♀️";
+}

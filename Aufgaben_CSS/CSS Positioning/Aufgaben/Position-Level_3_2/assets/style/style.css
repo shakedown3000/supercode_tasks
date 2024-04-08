@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+}
+
+html {
+    font-family: Arial;
+    color: white;
+    font-size: 14px;
+}
+
+body {
+    background-image: url(../images/milky\ way.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.modal {
+    background-color: #F62B54;
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    position: absolute;
+    left: 50vw; 
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    position: inherit;
+}
+
+.top-right {
+    position: fixed;
+    right: 1em;
+    top: 1em;
+    background-image: url(../images/close_icon.png);
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.top-right:hover {
+    cursor:pointer;
+}
+
+h1 {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    text-decoration: underline;   
+}
+
+p {
+    text-align: left;
+    position: absolute;
+    width: 80%;
+    left: 10%; 
+    top: 50%;
+}

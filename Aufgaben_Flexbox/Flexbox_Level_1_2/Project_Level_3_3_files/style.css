@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Merriweather Regular";
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Merriweather Bold";
+    src: url(../fonts/Merriweather/Merriweather-Bold.ttf);
+}
+
+html {
+    font-family: "Merriweather Regular";
+    font-size: 16px;
+    letter-spacing:0.05rem;
+    line-height: 180%;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin: 10px 10px 0 0;
+}
+
+header nav ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    line-height: 120%;
+}
+
+/* Margin Right 15vw! */
+
+/* Lightbulb section */
+
+.top {
+    margin: 10vw 0 80px 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aligned_left,
+.aligned_right {
+    width: 400px;
+}
+
+.aligned_left p {
+    margin-bottom: 20px;
+}
+
+.top img {
+    width: 300px;
+    margin: 20px;
+}
+
+.download,
+.subscribe {
+    width: 80px;
+    height: 40px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+.download {
+    background-color: black;
+    color: white;
+}
+
+.subscribe {
+    background-color: transparent;
+    border-color: grey;
+}
+
+/* Face Section */
+
+.middle_1 {
+    margin: 0 15vw 80px 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle_1 > img {
+    width: 250px;
+    margin-right: 50px;
+}
+
+/* Fish section */
+
+.middle_2 {
+    margin: 0 10vw 80px 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Illustration Section */
+
+.middle_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10vw 80px 15vw;
+}
+
+.centered_wide {
+    margin: 0 100px 50px 100px;
+}
+
+.applications {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+    
+}
+
+.applications > img {
+    width: 300px;
+    padding: 0;
+}
+
+/* Examples */
+
+.middle_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10vw 80px 10vw;
+}
+
+.screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.screenshots > img {
+    width: 400px;
+}
+/* Download */
+
+.last_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10vw 50px 10vw;
+}
+
+.centered_format {
+    margin: 0 20vw 50px 20vw;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #55acee10;
+    width: 300px;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.price {
+    font-size: 4rem;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.membership ul {
+    margin: 20px 0 20px 0;
+}
+
+.membership li {
+    list-style-type: none;
+}
+
+.member {
+        background-color: #55ACEE;
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        color: white;
+    }
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}

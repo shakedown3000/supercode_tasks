@@ -1,0 +1,19 @@
+/* - Ziel dieser Übung ist es, die Verwendung der background-Eigenschaften zu üben, 
+die du gerade kennengelernt hast. Nutze die zwei vorgegebenen Code-Snippets, baue 
+sie in dein HTML ein und wende Folgendes an:
+- Setze die Hintergrundfarbe des ersten Beispieles für die <section> auf "linen" und 
+die Hintergrundfarbe für <h1> auf "lightblue".
+- Nutze für das zweite Beispiel [Unsplash](https://source.unsplash.com/random?nature), 
+um dem Hintergrund des <article> ein zufälliges Bild zu geben. */
+
+section {
+    background-color: linen;
+}
+
+h1 {
+    background-color: lightblue;
+}
+
+article {
+    background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlfHx8fHx8MTcxMTU1NDE1OA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080);
+}

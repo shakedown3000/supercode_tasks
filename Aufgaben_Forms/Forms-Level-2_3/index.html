@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-2_3</title>
+   <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+    <form>
+        <fieldset>
+        <legend>Register form</legend>
+
+        <section class="name">
+            <label class="entertext" for="name">Name:</label>
+            <input type="name" id="name" placeholder="Name">
+        </section>
+        <section class="surname">
+            <label class="entertext" for="surname">Surname:</label>
+            <input type="surname" id="surname" placeholder="Surname">
+        </section>
+
+        <section class="email">           
+            <label class="entertext" for="email">Email:</label>
+            <input type="email" id="email" placeholder="Email">
+        </section>
+        <section class="gender">           
+            <label for="gender">Gender:</label>
+            <input  type="radio" id="male">
+            <label for="gender">Male</label>
+            <input type="radio" name="auswahl" id="radioJa">
+            <label for="radioFemale">Female</label>
+        </section>
+        <section class="Picture">
+            <label for="file">Picture</label>
+            <input type="file" name="picture" id="file">
+        </section>
+        <section class="country">      
+            <label for="country">Country: </label>   
+            <select name="country" id="country">
+                <option value="DE">Germany</option>
+                <option value="AT">Austria</option>
+                <option value="CH">Switzerland</option>
+                <option value="other">Other</option>
+            </select>         
+        </section>
+        <section class="languages">        
+            <label for="languages">Preferred languages: </label>   
+            <select name="language" id="language" multiple>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+                <option value="react">React</option>
+            </select>
+            <label for="cmd">To choose more than one use cmd key.</label>
+            </section>
+            <section class="activity">           
+                <label for="activity">Field of activity:</label>
+                
+                <input type="radio" name="it" id="RadioIt">
+                <label for="it">IT</label>
+                <input type="radio" name="design" id="radioDesign">
+                <label for="radioDesign">Design</label>
+                <input type="radio" name="Other" id="radioOther">
+                <label for="radioOther">Other</label>
+            </section>
+            <section class="submit_form">
+                <input type="submit" value="Send">
+                <input type="button" value="Cancel">
+            </section>
+        </fieldset>
+            
+    </form>
+    
+</body>
+</html>

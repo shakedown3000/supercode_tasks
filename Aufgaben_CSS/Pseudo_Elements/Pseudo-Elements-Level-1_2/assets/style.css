@@ -1,0 +1,81 @@
+* {
+    font-family: Montserrat;
+    font-weight: bold; 
+}
+
+*::first-letter {
+    font-size: 300%;
+    font-weight: bold;  
+    color: rgb(154, 7, 12); 
+}
+
+h3::first-letter {
+    color: rgb(13, 111, 77);
+}
+
+h3:hover::first-letter {
+    color: #00bfff;
+}
+
+li:first-of-type::first-letter {
+    color: #00bfff;
+    text-decoration: overline;
+}
+
+li:nth-of-type(2):first-letter {
+    color:  #c71585;
+    text-decoration: underline;
+}
+
+li:nth-of-type(3) {
+    text-decoration: line-through;
+}
+
+li:nth-of-type(3):first-letter {
+    color: #32cd32;
+    text-decoration: line-through;
+}
+
+section p:hover::first-line {
+    color: #00bfff;
+}
+
+section p:first-of-type {
+    font size: 0.5rem;
+    color: grey;
+}
+section p:first-of-type::first-line {
+    font-size: 1.25rem;
+}
+
+section p:nth-of-type(2) {
+    font-size: 1.5rem;
+}
+
+section p:nth-of-type(2)::first-line {
+    color: #2e8b57;
+}
+
+section p:nth-of-type(3) {
+    font-size: 0.75rem;
+}
+
+section p:nth-of-type(3)::first-line {
+    color: #2e8b57;
+}
+
+section p:nth-of-type(4)::first-line {
+    color:#2e8b57;
+}
+
+section p:nth-of-type(5) {
+    font-size: 0.75rem;
+}
+
+section p:nth-of-type(5)::first-line {
+    color: #2e8b57;
+}
+
+section p:nth-of-type(6)::first-line {
+    color: #2e8b57;
+}

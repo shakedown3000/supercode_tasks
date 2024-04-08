@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-1_1</title>
+   <link rel="stylesheet" href="./assets/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<form>
+    <fieldset>
+        <!-- Textfield -->
+        <section class="name">
+                <label class="required" for="vorname">Name:</label>
+            <div>
+                <input type="vorname" id="vorname" placeholder="Vorname">
+                <input type="nachname" id="nachname" placeholder="Nachname">
+            </div>
+        </section>
+
+        <!-- Textfield -->
+        <section class="email">           
+            <label class="required"  for="email">Email</label>
+            <div>
+                <input type="email" id="email" placeholder="">
+            </div>
+        </section>
+
+        <!-- Dropdown -->
+        <section class="topic">      
+                <label for="thema">Thema: </label>
+            <div>    
+                <select name="thema" id="thema">
+                    <option value="advertise">Advertise</option>
+                    <option value="general">General</option>
+                    <option value="partnership">Partnership</option>
+                    <option value="nachricht">Nachricht</option>
+                </select>
+            </div>            
+        </section>
+
+         <!-- Input text area -->
+         <section class="message">
+                <label class="required" for="nachricht">Nachricht:</label>
+            <div>
+                <textarea name="" id="" cols="40" rows="10" placeholder=""></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </section>
+        
+    </fieldset>
+</form>
+    
+</body>
+</html>

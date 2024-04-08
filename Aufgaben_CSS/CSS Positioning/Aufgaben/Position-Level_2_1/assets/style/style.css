@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+}
+
+html {
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #EEEFE2;
+}
+
+.hero {
+    position: relative;
+    background-image: url(../images/hero-image.png);
+    background-repeat: no-repeat;
+    background-position: 100% 75%;
+    background-size: 60vw;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    width: 30vw;
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+}
+
+p { 
+    position: absolute;
+    top: 45vh;
+    left: 10vw;
+    width: 30vw;
+}
+
+button {
+    background-color: #FBAA16;
+    position: absolute;
+    top: 65vh;
+    left: 10vw;
+    border: 1px solid black;
+    box-shadow: 1px 1px grey;
+    width: 15em;
+    height: 3em;
+    border-radius: 15px;
+}

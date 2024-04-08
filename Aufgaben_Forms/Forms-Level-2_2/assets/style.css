@@ -1,0 +1,7 @@
+fieldset {
+    padding: 10px;
+}
+
+label, input {
+    margin: 5px 2px;
+}

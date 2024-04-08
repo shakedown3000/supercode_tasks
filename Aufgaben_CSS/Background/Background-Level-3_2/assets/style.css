@@ -1,0 +1,52 @@
+/* - In dieser Aufgabe sollst du drei <div>-tags erstellen, die jeweils 
+einen anderen Hintergrund bekommen. So siehst du klar und deutlich die 
+Unterschiede zwischen den verschiedenen background-Eigenschaften. Das HTML ist vorgegeben.
+- Folgende Eigenschaften werden genutzt: 
+background-color, 
+background-image, 
+background-position, 
+background-size, 
+(optional: background)
+- Nutze als font-family "Arial".
+- Der Klasse .backgrounds kannst du display: flex; justify-content: 
+center; align-items:center geben. So zentrierst du alle Elemente. Dazu aber später mehr.
+- Gebe den <div>-Boxen eine Höhe und Breite von jeweils 150px, sowie ein margin von 10px. */
+
+* {
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+}
+
+main {
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+div > div {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+div > div:first-of-type {
+    background-color: yellow;
+}
+
+div > div:nth-of-type(2) {
+    background-image: url(./Images/Wasser.jpeg);
+    background-position: center;
+    color: white;
+}
+
+div > div:last-of-type {
+    background: radial-gradient(circle, rgb(207, 182, 19) 0%, rgb(14, 97, 206) 100%);
+    color: white;
+}

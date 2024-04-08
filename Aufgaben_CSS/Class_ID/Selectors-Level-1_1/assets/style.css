@@ -1,0 +1,34 @@
+/* - Verwende einfache selectors in CSS (id, class, tags ...), wie z.B. in dem vorgegebenen HTML-Code. Wende bitte Folgendes an:
+- Zentriere den Text des <body>-tags.
+- Für das Element mit id layout: die background-color #f1f1f1, eine Breite von 500px, ein padding von 10px und zentriere das Element mit margin: 0 auto;
+- Für das Element mit class left: Richte den Text nach links aus.
+- Für das Element mit class right: Richte den Text nach rechts aus.
+- Eine Textfarbe von #333 für alle Texte.
+- Eine Farbe von lightblue für das Element <button>, 5px für padding top und padding bottom, 15px für padding left und padding right. 
+Und gib dem Button eine border mit width: 1px; style: solid; color: green; */
+
+body {
+    text-align: center;
+    color: #333;
+}
+
+#layout {
+    background-color: #f1f1f1;
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+button {
+    background-color: lightblue;
+    padding: 5px 15px;
+    border: 1px solid green;
+}

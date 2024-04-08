@@ -1,0 +1,88 @@
+/* Aufgabe 1
+- Beim Hovern ist der Text nicht unterstrichen, hat die Hintergrundfarbe #7E3661 und eine weißen Textfarbe.
+- Besuchte Links haben die Textfarbe #FCB941.
+- Der angeklickte Link hat die Größe von 3em. */
+
+a {
+    color:#FCB941
+}
+
+a:hover {
+    background-color: #7E3661;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: #FCB941;
+    font-size: 3em;
+}
+
+/* Aufgabe 2
+- Lernziel: Psuedo-Selektoren verstehen und anwenden.
+- Schau dir dazu die Design-Vorlage und den HMTL-Code an.
+- Die Überschrift verändert ihre Farbe, wenn man mit der Maus über das Element fährt: aquamarine.
+- Als Schrift wurde die "Monospace" benutzt.
+- Das  mit der Timeline bekommt eine Hintergrundfarbe.
+- Alle Elemente der Liste sind kursiv geschrieben, bis auf das letzte Element.
+- Die Schrift des Buttons vergrößert sich auf 1.3rem, sobald mit der Maus über das Element gehovert wird.
+- Auf Klick bekommt der Button eine andere Schriftfarbe.
+*/
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+h1:hover {
+    color: aquamarine;
+
+}
+
+article {
+    font-family: monospace;
+}
+
+.timeline {
+    background-color: aquamarine;
+    padding: 2px;
+    padding-bottom: 0;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+button {
+    border: 0.5px solid aquamarine;
+    background-color: transparent;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+button a {
+    color: #7E3661;
+}
+
+button a:hover {
+    font-size: 1.3em;
+
+}
+
+/* Aufgabe 3_4 
+
+- Lernziel: Pseudoselektor :hover anwenden und verstehen.
+- In dieser Aufgabe geht es darum, drei Bilder (die über das CSS eingebunden werden) unterschiedlich zu stylen, wenn man mit der Maus über das Bild fährt.
+- Das erste Bild soll einen doppelten Rahmen erhalten.
+- Über das zweite Bild wird ein grayscale-filter gelegt.
+- Bei dem dritten Bild ist der Rahmen erst eckig und wird dann rund. */
+
+
+img {
+    width: 200px;
+}
+
+img:firstoftype:hover { 
+    border: 2px solid blue;
+}
